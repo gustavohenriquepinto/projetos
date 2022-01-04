@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+:root{
+    --fundo: #254D32;
+    --icone: #EF2D56;
+    --letras: #72E1D1;
+    --menu: #FFFFFF;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--fundo);
+    color: var(--letras);
+    font: normal 24px Arial, sans-serif;
+}
+nav{
+    position: absolute;
+    margin: auto;
+    background-color: var(--menu);
+    height: 100px;
+    max-width: 600px;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+ul{
+    position: relative;
+    padding: 0;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    list-style-position: outside;
+}
+a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: var(--letras);
+    font-weight: bold;
+}
+span#home{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--icone) url('midia/home.png') center center no-repeat;
+    left: 35.6%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+span#profile{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--icone) url('midia/profile.png') center center no-repeat;
+    left: 42.7%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+span#notifications{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--icone) url('midia/massage.png') center center no-repeat;
+    left: 53%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+span#settings{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--icone) url('midia/settings.png') center center no-repeat;
+    left: 63.6%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
