@@ -38,9 +38,12 @@ label input{
     width: 60px;
     height: 60px;
     left: 65px;
-    background: red;
+    background: red url('midia/power.png') no-repeat;
+    background-size: 60px 60px;
     transition: 0.5s;
+    border-radius: 15px;
 }
 label input:checked ~ #icon{
     left: 300px;
+    background-color: chartreuse;
 }
