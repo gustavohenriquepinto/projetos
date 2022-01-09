@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: lightgray;
+    overflow: hidden;
+}
+label{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 140px;
+}
+label::before{
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 10px;
+    border-radius: 10px;
+    background: dimgray;
+}
+label input{
+    position: absolute;
+    appearance: none;
+}
+#icon{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 65px;
+    background: red;
+    transition: 0.5s;
+}
+label input:checked ~ #icon{
+    left: 300px;
+}
