@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+form{
+    margin: auto;
+    font: bold 18px 'Mochiy Pop One', sans-serif;
+    background-color: gray;
+    border-radius: 15px;
+    width: 425px;
+    height: 500px;
+    text-align: left;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.788), 0 0 20px rgba(0, 0, 0, 0.651);
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+
